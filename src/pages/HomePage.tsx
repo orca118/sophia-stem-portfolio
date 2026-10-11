@@ -72,18 +72,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenResume }) 
             <div className="lg:col-span-5 flex justify-center lg:justify-end">
               <div className="relative w-full max-w-md aspect-square rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-100">
                 <img
-                  src="/images/sophia_decode.jpg"
+                  src="/images/sophia_decode.JPG"
                   alt="Sophia Wang"
                   className="w-full h-full object-cover object-center"
                   referrerPolicy="no-referrer"
-                  onError={(e) => {
-                    const img = e.currentTarget;
-                    if (img.src.endsWith('.jpg')) {
-                      img.src = '/images/sophia_decode.png';
-                    } else if (img.src.endsWith('.png')) {
-                      img.src = '/images/sophia_decode.jpeg';
-                    }
-                  }}
                 />
               </div>
             </div>
@@ -109,7 +101,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenResume }) 
               <div>
                 <div className="relative aspect-16/10 bg-slate-900 overflow-hidden">
                   <img
-                    src="/images/robotics/ftc_robot.jpg"
+                    src="/images/O1.JPG"
                     alt="Orca Robotics FTC Team #21587 Robot"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
@@ -177,7 +169,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenResume }) 
               <div>
                 <div className="relative aspect-16/10 bg-slate-950 overflow-hidden p-2 flex items-center justify-center">
                   <img
-                    src="/images/cad/cad_model_01.svg"
+                    src="/images/CAD1.png"
                     alt="CAD Design Gallery"
                     className="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
