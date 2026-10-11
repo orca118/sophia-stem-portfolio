@@ -1,3 +1,4 @@
+
 export interface CADDesignItem {
   id: number;
   title: string;
@@ -7,62 +8,62 @@ export interface CADDesignItem {
 export const cadDesignsData: CADDesignItem[] = [
   {
     id: 1,
-    title: 'Roller Intake Assembly',
-    image: '/images/cad/cad_model_01.svg',
+    title: 'CAD Design 01',
+    image: '/images/CAD1.png',
   },
   {
     id: 2,
-    title: 'Drivetrain Sub-Chassis',
-    image: '/images/cad/cad_model_02.svg',
+    title: 'CAD Design 02',
+    image: '/images/CAD2.png',
   },
   {
     id: 3,
-    title: 'Telescoping Vertical Lift',
-    image: '/images/cad/cad_model_03.svg',
+    title: 'CAD Design 03',
+    image: '/images/CAD3.png',
   },
   {
     id: 4,
-    title: 'Compliant Gripper',
-    image: '/images/cad/cad_model_04.svg',
+    title: 'CAD Design 04',
+    image: '/images/CAD4.png',
   },
   {
     id: 5,
-    title: 'Differential Wrist Joint',
-    image: '/images/cad/cad_model_05.svg',
+    title: 'CAD Design 05',
+    image: '/images/CAD5.png',
   },
   {
     id: 6,
-    title: 'Structural Motor Mount',
-    image: '/images/cad/cad_model_06.svg',
+    title: 'CAD Design 06',
+    image: '/images/CAD6.png',
   },
   {
     id: 7,
-    title: 'Flywheel Launcher Mechanism',
-    image: '/images/cad/cad_model_07.svg',
+    title: 'CAD Design 07',
+    image: '/images/CAD7.png',
   },
   {
     id: 8,
-    title: 'Spring-Loaded Odometry Pod',
-    image: '/images/cad/cad_model_08.svg',
+    title: 'CAD Design 08',
+    image: '/images/CAD8.png',
   },
   {
     id: 9,
-    title: 'Slewing Turret Ring',
-    image: '/images/cad/cad_model_09.svg',
+    title: 'CAD Design 09',
+    image: '/images/CAD9.png',
   },
   {
     id: 10,
-    title: 'Articulating Wrist Pivot',
-    image: '/images/cad/cad_model_10.svg',
+    title: 'CAD Design 10',
+    image: '/images/CAD10.png',
   },
   {
     id: 11,
-    title: 'Battery Cradle Assembly',
-    image: '/images/cad/cad_model_11.svg',
+    title: 'CAD Design 11',
+    image: '/images/CAD11.png',
   },
   {
     id: 12,
-    title: 'Planetary Reduction Cartridge',
-    image: '/images/cad/cad_model_12.svg',
+    title: 'CAD Design 12',
+    image: '/images/CAD12.png',
   },
 ];
