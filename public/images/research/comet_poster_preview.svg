@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#030712"/>
+  <rect x="30" y="30" width="740" height="540" rx="8" fill="#0B132B" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="60" y="75" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38BDF8">PLANETARY SCIENCE // RESEARCH POSTER</text>
+  <text x="60" y="105" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold" fill="#F8FAFC">Cometary Coma Dynamics & Photometric Analysis</text>
+  <text x="60" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">Advisor: Dr. Xiao-Duan Zou · Astronomical Photometry & Coma Dust Morphology</text>
+
+  <!-- Comet visual art -->
+  <g transform="translate(380, 320)">
+    <!-- Coma gradient rings -->
+    <circle cx="0" cy="0" r="160" fill="none" stroke="#1E3A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-opacity="0.5"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.7"/>
+    <!-- Nucleus -->
+    <circle cx="0" cy="0" r="14" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="28" fill="#38BDF8" opacity="0.3"/>
+    
+    <!-- Tail & Fan -->
+    <path d="M 0 0 L 260 -90 L 290 -30 L 280 60 Z" fill="#38BDF8" opacity="0.12"/>
+    <path d="M 0 0 L 240 -60 L 260 -10 Z" fill="#60A5FA" opacity="0.2"/>
+    
+    <!-- Photometric Grid Lines -->
+    <line x1="-180" y1="0" x2="200" y2="0" stroke="#475569" stroke-width="0.75" stroke-dasharray="4 4"/>
+    <line x1="0" y1="-170" x2="0" y2="170" stroke="#475569" stroke-width="0.75" stroke-dasharray="4 4"/>
+    <text x="0" y="195" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94A3B8" text-anchor="middle">AZIMUTHAL PROFILE EXTRACTION & Afρ DUST PRODUCTION</text>
+  </g>
+</svg>

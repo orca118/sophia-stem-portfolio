@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0F172A"/>
+  <rect x="25" y="25" width="550" height="350" rx="8" fill="#1E293B" stroke="#334155"/>
+  <text x="50" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#F59E0B">SAT GOLD TUTORING // 100+ HOURS VOLUNTEER SERVICE</text>
+  <text x="50" y="105" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold" fill="#F8FAFC">Algebraic & Geometric Problem Analysis</text>
+  <!-- Math illustration -->
+  <g transform="translate(100, 160)">
+    <circle cx="100" cy="80" r="60" fill="none" stroke="#14B8A6" stroke-width="2"/>
+    <polygon points="100,20 160,110 40,110" fill="none" stroke="#F8FAFC" stroke-width="2"/>
+    <path d="M 240 140 Q 320 20 400 140" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+    <text x="320" y="165" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94A3B8" text-anchor="middle">f(x) = a(x - h)² + k</text>
+  </g>
+</svg>

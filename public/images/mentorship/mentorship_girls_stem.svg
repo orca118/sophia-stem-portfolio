@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0F172A"/>
+  <rect x="25" y="25" width="550" height="350" rx="8" fill="#1E293B" stroke="#334155"/>
+  <text x="50" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#EC4899">STUDENT LEADERSHIP // PEER MENTORSHIP</text>
+  <text x="50" y="105" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold" fill="#F8FAFC">Collaborative Engineering Culture</text>
+  <g transform="translate(300, 240)">
+    <circle cx="-80" cy="-20" r="30" fill="#334155" stroke="#EC4899" stroke-width="2"/>
+    <circle cx="0" cy="-40" r="35" fill="#1E293B" stroke="#14B8A6" stroke-width="2.5"/>
+    <circle cx="80" cy="-20" r="30" fill="#334155" stroke="#38BDF8" stroke-width="2"/>
+    <path d="M -80 -20 L 0 -40 L 80 -20" stroke="#F8FAFC" stroke-width="2" stroke-dasharray="4 4"/>
+  </g>
+</svg>

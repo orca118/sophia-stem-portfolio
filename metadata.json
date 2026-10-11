@@ -1,0 +1,6 @@
+{
+  "name": "Sophia — STEM & Robotics Portfolio",
+  "description": "Personal STEM portfolio of Sophia, 11th-grade student at Richard Montgomery High School. Robotics team captain (Orca Robotics FTC #21587), computational biology researcher, CAD designer, and STEM mentor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

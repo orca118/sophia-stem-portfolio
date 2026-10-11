@@ -1,0 +1,116 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="100%" height="100%">
+  <!-- Poster Background -->
+  <rect width="900" height="620" fill="#050B14" rx="6" />
+  <rect x="0" y="0" width="900" height="620" fill="none" stroke="#1E293B" stroke-width="2" />
+
+  <!-- Poster Header Bar -->
+  <rect x="25" y="25" width="850" height="110" fill="#0B132B" rx="6" stroke="#1C2D5A" stroke-width="1" />
+  
+  <text x="45" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1.5">PLANETARY SCIENCE INSTITUTE · PLANETARY ASTRONOMY RESEARCH</text>
+  
+  <text x="45" y="88" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">
+    Modeling the Far Side of Comet 19P/Borrelly Using Blender: An Exploration of Potential Surface Geometries
+  </text>
+  <text x="45" y="118" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="500" fill="#94A3B8">
+    Authors: Sophia Wang, Daisy Hu, Christopher Wang, Xiao-Duan Zou · <tspan fill="#38BDF8" font-weight="700">Research Mentor: Dr. Xiao-Duan Zou (Planetary Science Institute)</tspan>
+  </text>
+
+  <!-- 3 Columns Poster Layout -->
+  <g transform="translate(25, 150)">
+    <rect width="270" height="445" fill="#0B132B" rx="6" stroke="#1E293B" />
+    <text x="20" y="32" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#38BDF8">01. COMET 19P &amp; MISSION</text>
+    
+    <text x="20" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#CBD5E1">
+      <tspan x="20" dy="0">During the 2001 Deep Space 1 flyby of Comet</tspan>
+      <tspan x="20" dy="16">19P/Borrelly, only ~40% of the sunlit nucleus surface</tspan>
+      <tspan x="20" dy="16">was imaged at high resolution. The shape of the</tspan>
+      <tspan x="20" dy="16">unobserved far side remains unknown.</tspan>
+    </text>
+
+    <text x="20" y="150" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#E2E8F0">Observed Near-Side Constraints</text>
+    <rect x="20" y="165" width="230" height="90" fill="#030712" rx="4" stroke="#1E293B" />
+    <text x="30" y="190" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">• Highly elongated bowling-pin shape</text>
+    <text x="30" y="210" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">• Dimensions: ~8.0 × 3.15 × 3.15 km</text>
+    <text x="30" y="230" font-family="'JetBrains Mono', monospace" font-size="9" fill="#38BDF8">• Deep Space 1 MICAS camera data</text>
+
+    <text x="20" y="285" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#E2E8F0">Research Objective</text>
+    <rect x="20" y="300" width="230" height="120" fill="#030712" rx="4" stroke="#1E293B" />
+    <text x="30" y="325" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#CBD5E1">Develop three distinct hypothetical</text>
+    <text x="30" y="340" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#CBD5E1">3D models for the unobserved far side</text>
+    <text x="30" y="355" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#CBD5E1">in Blender based on geometric smoothness,</text>
+    <text x="30" y="370" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#CBD5E1">concavities, and bifurcated lobes.</text>
+    <text x="30" y="395" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#38BDF8">Mentor: Dr. Xiao-Duan Zou</text>
+  </g>
+
+  <g transform="translate(315, 150)">
+    <rect width="270" height="445" fill="#0B132B" rx="6" stroke="#1E293B" />
+    <text x="20" y="32" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#60A5FA">02. BLENDER 3D MODELING</text>
+    <text x="20" y="58" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">THREE FAR-SIDE GEOMETRIC MODELS</text>
+
+    <g transform="translate(20, 75)">
+      <rect x="0" y="0" width="230" height="100" fill="#030712" rx="4" stroke="#1E293B" />
+      <ellipse cx="65" cy="50" rx="45" ry="30" fill="none" stroke="#38BDF8" stroke-width="1.5" />
+      <ellipse cx="115" cy="50" rx="25" ry="20" fill="none" stroke="#60A5FA" stroke-width="1" />
+      <text x="145" y="45" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Model A</text>
+      <text x="145" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Smooth Ellipsoid</text>
+      <text x="145" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#64748B">Continuation</text>
+    </g>
+
+    <g transform="translate(20, 185)">
+      <rect x="0" y="0" width="230" height="100" fill="#030712" rx="4" stroke="#1E293B" />
+      <path d="M 30 50 Q 60 20 100 45 Q 120 70 80 80 Z" fill="none" stroke="#818CF8" stroke-width="1.5" />
+      <text x="145" y="45" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Model B</text>
+      <text x="145" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Concave Basin</text>
+      <text x="145" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#64748B">Depression depression</text>
+    </g>
+
+    <g transform="translate(20, 295)">
+      <rect x="0" y="0" width="230" height="120" fill="#030712" rx="4" stroke="#1E293B" />
+      <circle cx="55" cy="60" r="28" fill="none" stroke="#C084FC" stroke-width="1.5" />
+      <circle cx="105" cy="60" r="20" fill="none" stroke="#C084FC" stroke-width="1.5" />
+      <text x="145" y="55" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Model C</text>
+      <text x="145" y="72" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Bifurcated Contact</text>
+      <text x="145" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#64748B">Binary Bilobate</text>
+    </g>
+  </g>
+
+  <g transform="translate(605, 150)">
+    <rect width="270" height="445" fill="#0B132B" rx="6" stroke="#1E293B" />
+    <text x="20" y="32" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#A78BFA">03. VOLUMES &amp; CONCLUSIONS</text>
+    <text x="20" y="58" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">VOLUME &amp; SURFACE COMPARISONS</text>
+
+    <g transform="translate(20, 75)">
+      <rect x="0" y="0" width="230" height="150" fill="#030712" rx="4" stroke="#1E293B" />
+      <text x="15" y="25" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Model</text>
+      <text x="100" y="25" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Vol (km³)</text>
+      <text x="170" y="25" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#FFFFFF">Area</text>
+      <line x1="10" y1="35" x2="220" y2="35" stroke="#334155" stroke-width="1" />
+
+      <text x="15" y="55" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#38BDF8">Model A</text>
+      <text x="100" y="55" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#E2E8F0">42.8 ± 3</text>
+      <text x="170" y="55" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#94A3B8">Baseline</text>
+
+      <text x="15" y="85" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#818CF8">Model B</text>
+      <text x="100" y="85" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#E2E8F0">37.1 ± 3</text>
+      <text x="170" y="85" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#94A3B8">-13%</text>
+
+      <text x="15" y="115" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#C084FC">Model C</text>
+      <text x="100" y="115" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#E2E8F0">39.4 ± 3</text>
+      <text x="170" y="115" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#94A3B8">-8%</text>
+    </g>
+
+    <text x="20" y="255" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#E2E8F0">Conclusions &amp; Applications</text>
+    <g transform="translate(20, 270)">
+      <rect x="0" y="0" width="230" height="150" fill="#030712" rx="4" stroke="#1E293B" />
+      <text x="12" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#E2E8F0">• Three digital 3D meshes allow</text>
+      <text x="20" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">gravitational parameter simulations.</text>
+
+      <text x="12" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#E2E8F0">• Demonstrates how Blender</text>
+      <text x="20" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">complements scientific small-body</text>
+      <text x="20" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">astronomy workflows.</text>
+
+      <text x="12" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#38BDF8">Supervised by Dr. Xiao-Duan Zou</text>
+    </g>
+  </g>
+</svg>

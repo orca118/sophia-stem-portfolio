@@ -1,0 +1,124 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="100%" height="100%">
+  <!-- Poster Background -->
+  <rect width="900" height="620" fill="#0F172A" rx="6" />
+  <rect x="0" y="0" width="900" height="620" fill="none" stroke="#334155" stroke-width="2" />
+
+  <!-- Poster Header Bar -->
+  <rect x="25" y="25" width="850" height="110" fill="#1E293B" rx="6" stroke="#475569" stroke-width="1" />
+  <text x="45" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#14B8A6" letter-spacing="1.5">JOURNAL OF EMERGING INVESTIGATORS (JEI) · AUGUST 6, 2026 · ARTICLE #25-295</text>
+  <text x="45" y="88" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">
+    Integrated Expression, Mutation, and Survival Analysis of 17 Key Genes in Breast Cancer
+  </text>
+  <text x="45" y="118" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="500" fill="#94A3B8">
+    Authors: Sophia Wang, Christopher Wang, Haiyan Lei · <tspan fill="#2DD4BF" font-weight="700">Research Mentor: Dr. Haiyan Lei (National Cancer Institute)</tspan>
+  </text>
+
+  <!-- 3 Columns Poster Layout -->
+  <g transform="translate(25, 150)">
+    <rect width="270" height="445" fill="#1E293B" rx="6" stroke="#334155" />
+    <text x="20" y="32" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#38BDF8">01. INTRODUCTION &amp; DATA</text>
+    <text x="20" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#CBD5E1">
+      <tspan x="20" dy="0">Breast cancer is a heterogeneous disease with distinct</tspan>
+      <tspan x="20" dy="16">molecular subtypes. We examined genomic alterations</tspan>
+      <tspan x="20" dy="16">and clinical outcomes for 17 key oncogenic driver</tspan>
+      <tspan x="20" dy="16">and suppressor genes in TCGA-BRCA.</tspan>
+    </text>
+    <text x="20" y="150" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#E2E8F0">17 Key Candidate Genes</text>
+    <rect x="20" y="165" width="230" height="55" fill="#0F172A" rx="4" stroke="#334155" />
+    <text x="30" y="185" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#2DD4BF">TP53, PIK3CA, GATA3, CDH1, MAP3K1</text>
+    <text x="30" y="201" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94A3B8">ERBB2, BRCA1, BRCA2, PTEN, ESR1...</text>
+
+    <text x="20" y="255" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#E2E8F0">TCGA-BRCA Cohort (N = 1,098)</text>
+    <rect x="20" y="270" width="230" height="150" fill="#0F172A" rx="4" stroke="#334155" />
+    <text x="30" y="295" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#38BDF8">RNA-Seq Expression (RSEM)</text>
+    <text x="30" y="320" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#38BDF8">Whole Exome Sequencing</text>
+    <text x="30" y="345" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#38BDF8">Clinical Overall Survival (OS)</text>
+    <text x="30" y="370" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#38BDF8">PAM50 Molecular Subtyping</text>
+    <text x="30" y="395" font-family="'JetBrains Mono', monospace" font-size="9" fill="#14B8A6">Normalized z-score thresholds</text>
+  </g>
+
+  <g transform="translate(315, 150)">
+    <rect width="270" height="445" fill="#1E293B" rx="6" stroke="#334155" />
+    <text x="20" y="32" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#2DD4BF">02. MUTATION PROFILES</text>
+    <text x="20" y="58" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">MUTATION FREQUENCIES IN 17 GENES</text>
+
+    <g transform="translate(20, 75)">
+      <rect x="0" y="0" width="230" height="18" fill="#0F172A" rx="2" />
+      <rect x="0" y="0" width="80" height="18" fill="#E11D48" rx="2" />
+      <text x="10" y="13" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FFFFFF">PIK3CA (34%)</text>
+
+      <rect x="0" y="25" width="230" height="18" fill="#0F172A" rx="2" />
+      <rect x="0" y="25" width="72" height="18" fill="#E11D48" rx="2" />
+      <text x="10" y="38" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FFFFFF">TP53 (31%)</text>
+
+      <rect x="0" y="50" width="230" height="18" fill="#0F172A" rx="2" />
+      <rect x="0" y="50" width="30" height="18" fill="#F59E0B" rx="2" />
+      <text x="10" y="63" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FFFFFF">CDH1 (13%)</text>
+
+      <rect x="0" y="75" width="230" height="18" fill="#0F172A" rx="2" />
+      <rect x="0" y="75" width="26" height="18" fill="#F59E0B" rx="2" />
+      <text x="10" y="88" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FFFFFF">GATA3 (11%)</text>
+
+      <rect x="0" y="100" width="230" height="18" fill="#0F172A" rx="2" />
+      <rect x="0" y="100" width="18" height="18" fill="#10B981" rx="2" />
+      <text x="10" y="113" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FFFFFF">MAP3K1 (8%)</text>
+    </g>
+
+    <text x="20" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#E2E8F0">Expression Variations Across Subtypes</text>
+    <g transform="translate(20, 240)">
+      <rect x="0" y="0" width="230" height="175" fill="#0F172A" rx="4" stroke="#334155" />
+      <text x="10" y="20" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#94A3B8">PAM50 SUBTYPES: LumA, LumB, HER2, Basal</text>
+      
+      <rect x="15" y="35" width="45" height="25" fill="#0284C7" />
+      <rect x="65" y="35" width="45" height="25" fill="#0369A1" />
+      <rect x="115" y="35" width="45" height="25" fill="#E11D48" />
+      <rect x="165" y="35" width="45" height="25" fill="#991B1B" />
+
+      <rect x="15" y="65" width="45" height="25" fill="#14B8A6" />
+      <rect x="65" y="65" width="45" height="25" fill="#0D9488" />
+      <rect x="115" y="65" width="45" height="25" fill="#F59E0B" />
+      <rect x="165" y="65" width="45" height="25" fill="#EF4444" />
+
+      <rect x="15" y="95" width="45" height="25" fill="#38BDF8" />
+      <rect x="65" y="95" width="45" height="25" fill="#0284C7" />
+      <rect x="115" y="95" width="45" height="25" fill="#10B981" />
+      <rect x="165" y="95" width="45" height="25" fill="#F59E0B" />
+
+      <text x="15" y="145" font-family="'JetBrains Mono', monospace" font-size="8" fill="#38BDF8">Distinct signature across basal</text>
+      <text x="15" y="160" font-family="'JetBrains Mono', monospace" font-size="8" fill="#38BDF8">and luminal subtypes identified</text>
+    </g>
+  </g>
+
+  <g transform="translate(605, 150)">
+    <rect width="270" height="445" fill="#1E293B" rx="6" stroke="#334155" />
+    <text x="20" y="32" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#F472B6">03. SURVIVAL &amp; CONCLUSIONS</text>
+    <text x="20" y="58" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">KAPLAN-MEIER OVERALL SURVIVAL</text>
+
+    <g transform="translate(20, 75)">
+      <rect x="0" y="0" width="230" height="150" fill="#0F172A" rx="4" stroke="#334155" />
+      <line x1="25" y1="125" x2="215" y2="125" stroke="#64748B" stroke-width="1" />
+      <line x1="25" y1="20" x2="25" y2="125" stroke="#64748B" stroke-width="1" />
+      
+      <path d="M 25 35 L 60 35 L 80 45 L 120 48 L 160 55 L 205 60" fill="none" stroke="#2DD4BF" stroke-width="2.5" />
+      <path d="M 25 35 L 50 48 L 80 70 L 110 85 L 150 102 L 205 115" fill="none" stroke="#F43F5E" stroke-width="2.5" />
+
+      <text x="35" y="30" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#2DD4BF">High Expression Group</text>
+      <text x="110" y="112" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#F43F5E">Low/Mut Group (p &lt; 0.05)</text>
+      <text x="120" y="140" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#94A3B8">Time (Months)</text>
+    </g>
+
+    <text x="20" y="255" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#E2E8F0">Key Project Findings</text>
+    <g transform="translate(20, 270)">
+      <rect x="0" y="0" width="230" height="150" fill="#0F172A" rx="4" stroke="#334155" />
+      <text x="12" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#E2E8F0">• Stratification of 17 genes showed</text>
+      <text x="20" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">significant prognostic divergence.</text>
+
+      <text x="12" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#E2E8F0">• High TP53 mutation co-occurred</text>
+      <text x="20" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">with unfavorable overall survival.</text>
+
+      <text x="12" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#E2E8F0">• Emphasizes integrative multi-omic</text>
+      <text x="20" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">biomarker evaluation for breast cancer.</text>
+    </g>
+  </g>
+</svg>

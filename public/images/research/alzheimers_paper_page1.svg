@@ -1,0 +1,113 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 840" width="100%" height="100%">
+  <!-- Document Sheet -->
+  <rect width="650" height="840" fill="#FFFFFF" rx="4" />
+  <rect x="0" y="0" width="650" height="840" fill="none" stroke="#E2E8F0" stroke-width="1.5" />
+
+  <!-- Journal Header Banner -->
+  <rect x="40" y="35" width="570" height="50" fill="#F8FAFC" rx="4" stroke="#E2E8F0" stroke-width="1" />
+  <text x="55" y="58" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#0F766E" letter-spacing="1">NATIONAL HIGH SCHOOL JOURNAL OF SCIENCE</text>
+  <text x="55" y="74" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#64748B">NHSJS · RESEARCH ARTICLE · PUBLISHED 2026</text>
+  <text x="595" y="65" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8" text-anchor="end">OPEN ACCESS</text>
+
+  <!-- Article Title -->
+  <text x="40" y="130" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#0F172A" text-anchor="start">
+    <tspan x="40" dy="0">Identifying Potential Drug Candidates for Alzheimer's</tspan>
+    <tspan x="40" dy="26">Disease Using Transcriptomic Analysis</tspan>
+  </text>
+
+  <!-- Author & Affiliation -->
+  <text x="40" y="186" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#0D9488">Sophia Wang</text>
+  <text x="40" y="202" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9.5" fill="#64748B">Richard Montgomery High School, Rockville, MD · Class of 2028</text>
+  <text x="40" y="217" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="600" fill="#0F766E">Research Mentor: Dr. Haiyan Lei · National Cancer Institute (NCI)</text>
+  <line x1="40" y1="228" x2="610" y2="228" stroke="#E2E8F0" stroke-width="1" />
+
+  <!-- Abstract Box -->
+  <rect x="40" y="235" width="570" height="155" fill="#F0FDFA" rx="6" stroke="#CCFBF1" stroke-width="1" />
+  <text x="55" y="258" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#0F766E">ABSTRACT</text>
+  
+  <text x="55" y="280" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" fill="#334155">
+    <tspan x="55" dy="0">Alzheimer's disease (AD) is a progressive neurodegenerative disorder with limited therapeutic</tspan>
+    <tspan x="55" dy="16">options. In this investigation, public transcriptomic microarray and RNA-seq datasets from the Gene</tspan>
+    <tspan x="55" dy="16">Expression Omnibus (GEO) were analyzed to identify differentially expressed genes across vulnerable</tspan>
+    <tspan x="55" dy="16">brain regions (hippocampus and entorhinal cortex). Pathway enrichment analysis highlighted</tspan>
+    <tspan x="55" dy="16">neuroinflammation, synaptic vesicle transport, and mitochondrial metabolism dysregulation.</tspan>
+    <tspan x="55" dy="16">Computational drug-repurposing methodologies evaluated candidate reversal signatures,</tspan>
+    <tspan x="55" dy="16">prioritizing small-molecule candidates for further prospective laboratory inquiry.</tspan>
+  </text>
+
+  <!-- Simulated Columns Layout of Paper -->
+  <g transform="translate(40, 415)">
+    <text x="0" y="15" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">INTRODUCTION</text>
+    <rect x="0" y="28" width="270" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="40" width="250" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="52" width="265" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="64" width="240" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="76" width="260" height="6" rx="3" fill="#E2E8F0" />
+
+    <text x="0" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">DATA &amp; METHODS</text>
+    <rect x="0" y="122" width="270" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="134" width="245" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="146" width="260" height="6" rx="3" fill="#E2E8F0" />
+
+    <!-- Mini chart illustration -->
+    <rect x="0" y="170" width="270" height="150" fill="#F8FAFC" rx="4" stroke="#E2E8F0" />
+    <text x="10" y="188" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748B">FIG 1. DIFFERENTIAL PATHWAY ENRICHMENT</text>
+    
+    <rect x="15" y="205" width="140" height="10" rx="2" fill="#0D9488" />
+    <rect x="15" y="223" width="115" height="10" rx="2" fill="#14B8A6" />
+    <rect x="15" y="241" width="95" height="10" rx="2" fill="#2DD4BF" />
+    <rect x="15" y="259" width="75" height="10" rx="2" fill="#5EEAD4" />
+    <rect x="15" y="277" width="55" height="10" rx="2" fill="#99F6E4" />
+
+    <text x="165" y="213" font-family="'JetBrains Mono', monospace" font-size="8" fill="#475569">Synaptic Vesicle</text>
+    <text x="140" y="231" font-family="'JetBrains Mono', monospace" font-size="8" fill="#475569">Neuroinflammation</text>
+    <text x="120" y="249" font-family="'JetBrains Mono', monospace" font-size="8" fill="#475569">Mitochondria</text>
+    <text x="100" y="267" font-family="'JetBrains Mono', monospace" font-size="8" fill="#475569">Calcium Signaling</text>
+    <text x="80" y="285" font-family="'JetBrains Mono', monospace" font-size="8" fill="#475569">Autophagy</text>
+  </g>
+
+  <g transform="translate(340, 415)">
+    <text x="0" y="15" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">TRANSCRIPTOMIC ANALYSIS</text>
+    <rect x="0" y="28" width="270" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="40" width="255" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="52" width="265" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="64" width="240" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="76" width="260" height="6" rx="3" fill="#E2E8F0" />
+
+    <text x="0" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">DRUG REPURPOSING CANDIDATES</text>
+    <rect x="0" y="122" width="270" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="134" width="240" height="6" rx="3" fill="#E2E8F0" />
+    <rect x="0" y="146" width="260" height="6" rx="3" fill="#E2E8F0" />
+
+    <rect x="0" y="170" width="270" height="150" fill="#F8FAFC" rx="4" stroke="#E2E8F0" />
+    <text x="10" y="188" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748B">TABLE 1. TOP COMPUTATIONAL CANDIDATES</text>
+    
+    <line x1="10" y1="200" x2="260" y2="200" stroke="#CBD5E1" stroke-width="1" />
+    <text x="15" y="213" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#0F172A">Candidate</text>
+    <text x="130" y="213" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#0F172A">Score</text>
+    <text x="190" y="213" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#0F172A">Class</text>
+    <line x1="10" y1="220" x2="260" y2="220" stroke="#E2E8F0" stroke-width="1" />
+
+    <text x="15" y="235" font-family="'JetBrains Mono', monospace" font-size="8" fill="#334155">Compound A</text>
+    <text x="130" y="235" font-family="'JetBrains Mono', monospace" font-size="8" fill="#0D9488">-92.4</text>
+    <text x="190" y="235" font-family="'JetBrains Mono', monospace" font-size="8" fill="#64748B">Flavonoid</text>
+
+    <text x="15" y="253" font-family="'JetBrains Mono', monospace" font-size="8" fill="#334155">Compound B</text>
+    <text x="130" y="253" font-family="'JetBrains Mono', monospace" font-size="8" fill="#0D9488">-88.1</text>
+    <text x="190" y="253" font-family="'JetBrains Mono', monospace" font-size="8" fill="#64748B">Alkaloid</text>
+
+    <text x="15" y="271" font-family="'JetBrains Mono', monospace" font-size="8" fill="#334155">Compound C</text>
+    <text x="130" y="271" font-family="'JetBrains Mono', monospace" font-size="8" fill="#0D9488">-84.7</text>
+    <text x="190" y="271" font-family="'JetBrains Mono', monospace" font-size="8" fill="#64748B">Kinase Inh.</text>
+
+    <text x="15" y="289" font-family="'JetBrains Mono', monospace" font-size="8" fill="#334155">Compound D</text>
+    <text x="130" y="289" font-family="'JetBrains Mono', monospace" font-size="8" fill="#0D9488">-81.3</text>
+    <text x="190" y="289" font-family="'JetBrains Mono', monospace" font-size="8" fill="#64748B">Neuroprotect.</text>
+  </g>
+
+  <!-- Document Page Footer -->
+  <line x1="40" y1="785" x2="610" y2="785" stroke="#E2E8F0" stroke-width="1" />
+  <text x="40" y="805" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">National High School Journal of Science (2026) · https://nhsjs.com</text>
+  <text x="610" y="805" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8" text-anchor="end">Page 1 of 8</text>
+</svg>

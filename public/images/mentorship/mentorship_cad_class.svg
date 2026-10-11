@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0F172A"/>
+  <rect x="25" y="25" width="550" height="350" rx="8" fill="#1E293B" stroke="#334155"/>
+  <text x="50" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#38BDF8">STEM WORKSHOP // MIDDLE SCHOOL CAD LAB</text>
+  <text x="50" y="105" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold" fill="#F8FAFC">Parametric 3D Design & Additive Slicing</text>
+  <g transform="translate(300, 230)">
+    <polygon points="0,-70 80,-20 0,30 -80,-20" fill="#334155" stroke="#14B8A6" stroke-width="2"/>
+    <polygon points="80,-20 80,60 0,110 0,30" fill="#1E293B" stroke="#14B8A6" stroke-width="2"/>
+    <polygon points="-80,-20 -80,60 0,110 0,30" fill="#0F172A" stroke="#14B8A6" stroke-width="2"/>
+  </g>
+</svg>
