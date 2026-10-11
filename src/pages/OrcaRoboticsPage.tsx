@@ -10,27 +10,24 @@ interface RoboticsPhoto {
 
 const roboticsPhotos: RoboticsPhoto[] = [
   {
-    title: 'Team Competition Photograph',
-    category: 'Competition & Alliance',
-    src: '/images/robotics/team_competition.jpg',
-    fallbackSrc: '/images/robotics/team_competition.svg',
+    title: 'Orca Robotics — Photo 1',
+    category: 'FTC Team #21587',
+    src: '/images/O1.JPG',
   },
   {
-    title: 'Competition Robot',
-    category: 'FTC Robot Chassis & Mechanism',
-    src: '/images/robotics/ftc_robot.jpg',
+    title: 'Orca Robotics — Photo 2',
+    category: 'FTC Team #21587',
+    src: '/images/O2.jpg',
   },
   {
-    title: 'Competition Action Photograph',
-    category: 'Match Play & Scoring',
-    src: '/images/robotics/competition_action.jpg',
-    fallbackSrc: '/images/robotics/competition_action.svg',
+    title: 'Orca Robotics — Photo 3',
+    category: 'FTC Team #21587',
+    src: '/images/O3.JPG',
   },
   {
-    title: 'Team Activity Photograph',
-    category: 'Engineering & Collaboration',
-    src: '/images/robotics/team_activity.jpg',
-    fallbackSrc: '/images/robotics/team_activity.svg',
+    title: 'Orca Robotics — Photo 4',
+    category: 'FTC Team #21587',
+    src: '/images/O4.JPG',
   },
 ];
 
