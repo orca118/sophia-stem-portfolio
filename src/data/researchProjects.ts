@@ -43,7 +43,7 @@ export const researchProjectsData: ResearchProject[] = [
     title: 'Modeling the Far Side of Comet 19P/Borrelly Using Blender: An Exploration of Potential Surface Geometries',
     authors: 'Sophia Wang, Daisy Hu, Christopher Wang, Xiao-Duan Zou',
     mentor: 'Dr. Xiao-Duan Zou · Planetary Science Institute',
-    previewImage: '/images/research/comet_19p_poster.svg',
+    previewImage: '/images/AGU_comet.png',
     shortDescription:
       'We used Blender to develop three hypothetical models of the unobserved far side of Comet 19P/Borrelly, exploring possible surface geometries based on the available near-side shape model.',
     isPoster: true,

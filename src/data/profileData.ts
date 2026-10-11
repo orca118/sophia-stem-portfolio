@@ -25,11 +25,11 @@ export const profileData: ProfileData = {
   subheadline: 'Student Researcher | Robotics Team Captain | CAD Designer',
   introduction:
     "I'm a junior in the International Baccalaureate (IB) Magnet Program at Richard Montgomery High School who enjoys robotics, computational biology, and engineering design. I love exploring new ideas, solving technical problems, and sharing what I learn with others.",
-  photo: '/images/sophia_decode.jpg',
+  photo: '/images/sophia_decode.JPG',
   bioParagraphs: [
     "I am an 11th-grade student in the International Baccalaureate (IB) Magnet Program at Richard Montgomery High School in Rockville, Maryland. My primary academic and extracurricular interests center on mechanical engineering, competitive robotics, computational biology research, and CAD design.",
     "As the founder and captain of Orca Robotics (FTC Team #21587), I work alongside my teammates to design, model, assemble, and program competition robots. I also lead our outreach initiatives, introducing younger students in our community to hands-on engineering and robotics concepts.",
-    "In research, I have co-authored two published computational biology studies investigating transcriptomic pathways in Alzheimer's disease and genomic alterations in breast cancer. Additionally, under the mentorship of Dr. Xiao-Duan Zou at the Planetary Science Institute, I explored hypothetical far-side surface geometries of Comet 19P/Borrelly using 3D modeling in Blender.",
+    "In research, I am the first author of two published computational biology papers investigating transcriptomic pathways in Alzheimer's disease and genomic alterations in breast cancer, under the mentorship of Dr. Haiyan Lei at the National Cancer Institute. Additionally, under the mentorship of Dr. Xiao-Duan Zou at the Planetary Science Institute, I explored hypothetical far-side surface geometries of Comet 19P/Borrelly using 3D modeling in Blender.",
     "Beyond the workshop and laboratory, I have contributed more than 100 hours as an SAT Gold tutor, assisting high school peers with foundational math reasoning, geometry, and problem-solving strategies.",
   ],
   honorsAndHighlights: [
