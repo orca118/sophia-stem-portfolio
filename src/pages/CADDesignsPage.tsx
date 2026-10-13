@@ -85,10 +85,10 @@ export const CADDesignsPage: React.FC = () => {
       <section className="space-y-6 pt-6 border-t border-slate-200">
         <div>
           <h2 className="text-2xl font-bold font-display text-slate-900">
-            All 12 Mechanical Designs
+            Featured CAD Designs
           </h2>
           <p className="text-sm text-slate-600 mt-1">
-            Browse each individual design and mechanism.
+            Explore a selection of my mechanical designs, custom components, and robotics mechanisms.
           </p>
         </div>
 
